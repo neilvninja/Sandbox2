@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WIE WIE</string>
+    <string name="hello_world">WIE WIE</string>
+    <string name="action_settings">WIE WIE</string>
+    <string name="users_name_edit_text">WIE WIE</string>
+    <string name="happy_question">WIE WIE</string>
+    <string name="yes_button">WIE WIE</string>
+    <string name="no_button">WIE WIE</string>
+
+</resources>
