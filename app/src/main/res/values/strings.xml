@@ -4,5 +4,9 @@
     <string name="app_name">Sandbox #2</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="users_name_edit_text">Type in your name</string>
+    <string name="happy_question">Are you happy?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
 
 </resources>
