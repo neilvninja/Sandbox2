@@ -1,10 +1,12 @@
 package com.sandbox2.neil.sandbox2;
 
+import android.content.Context;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -47,16 +49,16 @@ public class MainActivity extends ActionBarActivity {
     public void onYesButtonClick(View view) {
 
         String usersName = String.valueOf(usersNameEditText.getText()); //get text from EditText and convert to string
-        String yourYesResponse = "That's great" + usersName;
+        String yourYesResponse = "That's great " + usersName;
 
-        Toast.makeText(this, yourYesResponse, Toast.LENGTH_SHORT);
+        Toast.makeText(this, yourYesResponse, Toast.LENGTH_SHORT).show();
     }
 
     public void onNoButtonClick(View view) {
 
         String usersName = String.valueOf(usersNameEditText.getText()); //get text from EditText and convert to string
-        String yourNoResponse = "Awww that's cute" + usersName;
+        String yourNoResponse = "Awww that's cute " + usersName;
 
-        Toast.makeText(this, yourNoResponse, Toast.LENGTH_SHORT);
+        Toast.makeText(this, yourNoResponse, Toast.LENGTH_SHORT).show();
     }
 }
