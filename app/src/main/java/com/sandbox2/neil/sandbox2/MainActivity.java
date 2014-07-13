@@ -1,12 +1,10 @@
 package com.sandbox2.neil.sandbox2;
 
-import android.content.Context;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -41,6 +39,7 @@ public class MainActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_settings) {
+            Toast.makeText(this, "Pahaha funny how you think this app has a search functionality xD", Toast.LENGTH_SHORT).show();
             return true;
         }
         return super.onOptionsItemSelected(item);
